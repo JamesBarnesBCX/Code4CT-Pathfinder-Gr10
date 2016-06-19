@@ -25,17 +25,17 @@ If you need data in order to add any functionality I'll find a way to get you so
 ###Code Structure
 * css
   * bootstrap.min.css 
-  * **general.css**
+  * **general.css** -- CSS which applies to multiple pages (used for consistency)
 * fonts
   * *Ignore this folder, it holds glyphicons which I can show you how to use but arent that important.*
 * js
   * bootstrap.min.js
-  * **careers.js**
+  * **careers.js** -- Javascript specific to the careers.html page
   * faker.js
-  * **general.js**
-  * **searchCareers.js**
+  * **general.js** -- Shared js across multiple pages (include in all of them) like the render careers function.
+  * **searchCareers.js** -- Javascript specific to the searchCareers.html page
 * README.md
-* **careers.html**
-* **searchCareers.html**
+* **careers.html** -- Render all careers
+* **searchCareers.html** -- Display only results of the career search
 
 Best of luck, contact me if you need help (although if it's during work hours I may struggle for time)
