@@ -24,10 +24,18 @@ If you need data in order to add any functionality I'll find a way to get you so
 
 ###Code Structure
 * css
+  * bootstrap.min.css 
+  * **general.css**
 * fonts
+  * *Ignore this folder, it holds glyphicons which I can show you how to use but arent that important.*
 * js
+  * bootstrap.min.js
+  * **careers.js**
+  * faker.js
+  * **general.js**
+  * **searchCareers.js**
 * README.md
-* careers.html
-* searchCareers.html
+* **careers.html**
+* **searchCareers.html**
 
 Best of luck, contact me if you need help (although if it's during work hours I may struggle for time)
