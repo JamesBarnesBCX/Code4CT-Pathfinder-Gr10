@@ -39,4 +39,5 @@ If you need data in order to add any functionality I'll find a way to get you so
 * **searchCareers.html** -- Display only results of the career search
 
 Best of luck, contact me if you need help (although if it's during work hours I may struggle for time)
+
 James Barnes, Code4CapeTown Lead Facilitator (Teacher :)
