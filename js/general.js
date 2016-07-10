@@ -23,18 +23,7 @@ function renderCareersList(element, index, array) {
   heading.appendChild(text);
   listItem.appendChild(heading);
 
-  var small = document.createElement("small");
-  var text = document.createTextNode(element.sector);
-  small.appendChild(text);
-  listItem.appendChild(small);
 
-  var breakLine = document.createElement("br");
-  listItem.appendChild(breakLine);
-
-  var small = document.createElement("p");
-  var text = document.createTextNode(element.summary);
-  small.appendChild(text);
-  listItem.appendChild(small);
 
   var content = document.getElementById("content");
   content.appendChild(listItem);
