@@ -1,6 +1,6 @@
 //Functions to be used on multiple pages
 
-//Retrieves the variable submitted by a form using the get method. e.g. www.Bursary Finder.co.za/searchCareers.html?search=test <- looks for a variable defined after the ?, variables are separates by &
+//Retrieves the variable submitted by a form using the get method. e.g. www.bursary-finder.co.za/searchCareers.html?search=test <- looks for a variable defined after the ?, variables are separates by &
 function getParameterByName(name, url) {
     if (!url) url = window.location.href;
     name = name.replace(/[\[\]]/g, "\\$&");
