@@ -1,12 +1,12 @@
-# Code4CapeTown Grade 10 Pathfinder Project
+# Code4CapeTown Grade 10 Bursary Finder Project
 
-## Pathfinder
+## Bursary Finder
 
-Welcome keen young minds, James here and **this** is Pathfinder.
+Welcome keen young minds, James here and **this** is Bursary Finder.
 
-### What is Pathfinder
+### What is Bursary Finder
 
-Pathfinder is designed to help people learn more about what careers are out there for them and how to get there. This is a template for you to build around and play with, ideally allowing you to build something you are proud of more easily and allowing you to focus on the tools you have aquired recently.
+Bursary Finder is designed to help people learn more about what careers are out there for them and how to get there. This is a template for you to build around and play with, ideally allowing you to build something you are proud of more easily and allowing you to focus on the tools you have aquired recently.
 
 ### What must you do?
 

@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Pathfinder</title>
+    <title>Bursary Finder</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/general.css" rel="stylesheet">
+    <link href="css/bursaries.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -33,10 +34,9 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="careers.html">Careers <span class="sr-only">(current)</span></a></li>
-            <li><a href="#">Qualifications</a></li>
-            <li><a href="#">Bursaries</a></li>
-            <li><a href="#">About</a></li>
+            <li><a href="index.html">Home</span></a></li>
+            <li class="active"><a href="bursaries.html">Bursaries <span class="sr-only">(current)</a></li>
+            <li><a href="about.html">About</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
@@ -46,11 +46,11 @@
     <div class="container-fluid">
       <div class="row">
         <div style="text-align:center">
-          <h1>Careers</h1>
-          <p>Find the best career for you.</p>
+          <h1>Bursary Finder</h1>
+          <p>Find the ideal bursary for your future</p>
 
           <div class="col-sm-6 col-sm-offset-3">
-            <form method="get" action="searchCareers.html">
+            <form method="get" action="searchBursaries.html">
               <div class="input-group">
                 <input name="search" type="text" class="form-control" placeholder="Search for...">
                 <span class="input-group-btn">
@@ -62,7 +62,7 @@
         </div>
         <br><br>
         <div id="content" style="text-align:center">
-          <!-- Render careers here using DOM
+          <!-- Render Bursaries here using DOM
           var content = document.getElementById("content");
           content.appendChild(listItem);
           -->
@@ -74,7 +74,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/data.js"></script>
     <script src="js/general.js"></script>
-    <script src="js/careers.js"></script>
+    <script src="js/bursaries.js"></script>
   </body>
 </html>
